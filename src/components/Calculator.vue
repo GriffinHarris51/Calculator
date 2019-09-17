@@ -91,6 +91,10 @@ export default {
 
 <style scoped>
 .calculator {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
   width: 400px;
   margin: 0 auto;
   font-size: 40px;
@@ -100,8 +104,11 @@ export default {
 }
 
 .display {
+  height: 70px;
+  width: 395px;
+  border-radius: 10px;
   grid-column: 1/5;
-  background: #333;
+  background: #1c1c1c;
   color: white;
 }
 
@@ -110,13 +117,15 @@ export default {
 }
 
 .btn {
-  border-radius: 10px;
-  background-color: #f2f2f2;
+  border-radius: 100px;
+  background-color: #d4d4d2;
   border: 1px solid #999;
 }
-
+.btn:active {
+  background-color: #505050;
+}
 .operator {
-  background-color: orange;
+  background-color: #ff9500;
   color: white;
 }
 </style>
